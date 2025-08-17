@@ -1,6 +1,0 @@
-@GestioneFilm_HostAddress = http://localhost:5019
-
-GET {{GestioneFilm_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
