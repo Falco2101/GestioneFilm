@@ -68,7 +68,7 @@ namespace GestioneFilm.Controllers
             var film = await _context.Film.FindAsync(id);
             if (film is null)
             {
-                return NotFound("Film non trovato");
+                return NotFound("Film nooooo trovato");
             }
             _context.Film.Remove(film);
             await _context.SaveChangesAsync();
